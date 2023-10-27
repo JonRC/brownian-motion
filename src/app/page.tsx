@@ -61,7 +61,7 @@ export default function Home() {
       <canvas ref={canvasRef} width={screenSize} height={screenSize} />
       <div className="flex flex-col">
         <label id="atom-quantity" />
-        <span className="text-gray-200">Atom quantity</span>
+        <span className="text-gray-200">Quantidade de átomos</span>
         <input
           step={500}
           type="number"
@@ -72,7 +72,7 @@ export default function Home() {
         />
 
         <label className="mt-5" id="atom-radius" />
-        <span className="text-gray-200">Atom radius</span>
+        <span className="text-gray-200">Raio do átomo</span>
         <input
           step={0.1}
           type="number"
@@ -83,7 +83,7 @@ export default function Home() {
         />
 
         <label className="mt-5" id="atom-velocity-range" />
-        <span className="text-gray-200">Atom velocity range</span>
+        <span className="text-gray-200">Módulo da velocidade do átomo</span>
         <input
           step={0.1}
           type="number"
@@ -94,7 +94,7 @@ export default function Home() {
         />
 
         <label className="mt-5" id="pollen-radius" />
-        <span className="text-gray-200">Pollen radius</span>
+        <span className="text-gray-200">Raio do pólen</span>
         <input
           step={0.2}
           type="number"
